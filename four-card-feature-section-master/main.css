@@ -66,11 +66,9 @@ body {
   line-height:0.4rem ;
   text-align:justify;
   text-justify:distribute-all-lines;
-  
   justify-items: center;  
- margin:auto;
- padding-bottom: 0.5rem;
-  
+  margin:auto;
+  padding-bottom: 0.5rem;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -96,16 +94,18 @@ body {
     margin:auto;
 }
 .grid-container{
-    width:80%;
+    width:58rem;
     height:30rem;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 1.5rem;
     column-gap: 1.5rem;
-    margin-left:12%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    
+    margin:auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
     justify-content:center ;  
    
   
@@ -204,6 +204,40 @@ img{
 }
 
 
+@media screen and (max-width:820px) {
+    body {
+   
+        background-color: hsl(0, 0%, 98%);
+        margin-right:4%;
+        margin-left:3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        max-width:1440px;
+        width:100%;
+        justify-content: center;
+        
+        
+    }
+
+    .grid-container{
+        width:52rem;
+        height:30rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+        margin:auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    
+        justify-content:center ;  
+       
+      
+        
+    }
+    
+}
 
 
 
@@ -280,7 +314,9 @@ img{
     .motto{
         text-align:justify;
         justify-items: center;
-        width: 50%;
+        width: 15rem;
+        height:3rem;
+
         margin:auto;
         padding-bottom: 0.3rem;
         font-size:14px;
@@ -292,14 +328,13 @@ img{
         display: grid;
         grid-template-columns:16rem;
         grid-template-rows: 13rem 13rem 13rem 13rem ;
-        
-        
+        width:20rem;
+        height:56rem;
         row-gap: 1rem;
-       
-        margin-top: 0.5rem;
         justify-content:center;
-        margin-bottom:20rem;
-        min-height: 100vh;
+        margin:auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
         
         
         
